@@ -1,0 +1,76 @@
+{
+  "name": "chess-and-checkers",
+  "version": "1.0.0",
+  "description": "A comprehensive chess and checkers gaming platform featuring AI opponents, multiplayer gameplay, and stunning visual customization. Built with modern web technologies for an exceptional gaming experience.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest --watch",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirPenguin555/Chess-and-Checkers.git"
+  },
+  "keywords": [
+    "chess",
+    "checkers",
+    "game",
+    "multiplayer",
+    "ai",
+    "next.js",
+    "typescript",
+    "supabase"
+  ],
+  "author": "SirPenguin555",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirPenguin555/Chess-and-Checkers/issues"
+  },
+  "homepage": "https://github.com/SirPenguin555/Chess-and-Checkers#readme",
+  "dependencies": {
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.54.0",
+    "@tanstack/react-query": "^5.84.2",
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "chess.js": "^1.4.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.539.0",
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "stockfish": "^16.0.0",
+    "typescript": "^5.9.2",
+    "zustand": "^5.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "^15.4.6",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^16.1.5",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
+    "vitest": "^3.2.4"
+  }
+}
