@@ -11,7 +11,7 @@
 
 ### Must-Have Features
 
-- [ ] Basic Chess Gameplay - Complete chess implementation with move validation `L`
+- [x] Basic Chess Gameplay - Complete chess implementation with move validation `L`
 - [ ] Stockfish AI Integration - Working AI opponent for chess with difficulty levels `L`
 - [ ] Basic Checkers Gameplay - Complete checkers with move validation and AI `M`
 - [ ] User Authentication - Supabase Auth with email/OAuth login `M`
